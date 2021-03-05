@@ -19,10 +19,10 @@ namespace Exercises\Reverse;
  */
 final class Rev
 {
-    public function string(string $string){
+    public static function string(string $string){
         echo strrev($string);
     }
-    public function int(int $int){
+    public static function int(int $int){
         if($int > 0) {
             $num = strval($int);
             $rev =  strrev($num);
