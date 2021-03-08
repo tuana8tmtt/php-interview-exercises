@@ -16,8 +16,12 @@ namespace Exercises\Anagram;
 final class Anagram
 {
     public static function check(string $first, string $second){
-        $first = strtolower($first);
-        $second = strtolower($second);
+        $first = str_replace(' ', '', strtolower($first));
+        $second = str_replace(' ', '', strtolower($second));
+
+        $first = str_replace('.', '', $first);
+        $second = str_replace('.', '', $second);
+
         $array1 = str_split($first, 1);
         sort($array1);
         $array2 = str_split($second, 1);
@@ -32,4 +36,4 @@ final class Anagram
 
     }
 }
-var_dump(Anagram::check('roast beef', 'goat roast'));
+var_dump(Anagram::check('El.vi s', 'live. s'));
