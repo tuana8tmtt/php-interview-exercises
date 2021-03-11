@@ -1,5 +1,5 @@
 <?php
- leu leu
+ leu leu kk
 declare(strict_types=1);
 
 namespace Exercises\Palindrome;
