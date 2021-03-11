@@ -21,7 +21,4 @@ final class CheckReverse
         }
     }
 }
-a
-dkasdjasd
-dajdad
-conflict
+
