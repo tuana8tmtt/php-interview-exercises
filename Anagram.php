@@ -36,4 +36,5 @@ final class Anagram
 
     }
 }
+echo "a";
 var_dump(Anagram::check('El.vi s', 'live. s'));
