@@ -22,4 +22,3 @@ final class CheckReverse
         }
     }
 }
-var_dump(CheckReverse::check('asdd'));
