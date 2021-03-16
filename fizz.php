@@ -30,3 +30,4 @@ final class FizzBuzz
     }
 }
 FizzBuzz::print(15);
+FizzBuzz::print(20);
